@@ -18,8 +18,9 @@ import {
 	ChartTooltip,
 	ChartTooltipContent,
 } from "@/components/ui/chart"
-import { dashboardService, EmpresaMetrica } from "@/service/dashboard-service"
 import { Skeleton } from "@/components/ui/skeleton"
+import { EmpresaMetrica } from "@/types/estatistica/empresaMetrica"
+import { dashboardService } from "@/service/dashboard-service"
 
 const chartConfig = {
 	total_leads: {
