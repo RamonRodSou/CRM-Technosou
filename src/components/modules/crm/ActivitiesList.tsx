@@ -2,11 +2,13 @@
 
 import { useEffect, useState } from "react"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { dashboardService, ActivityFeed, EmpresaMetrica } from "@/service/dashboard-service"
 import { Activity, Database, ArrowUpRight } from "lucide-react"
 import { Skeleton } from "@/components/ui/skeleton"
 import { formatDistanceToNow } from "date-fns"
 import { ptBR } from "date-fns/locale"
+import { ActivityFeed } from "@/types/estatistica/activityFeed"
+import { EmpresaMetrica } from "@/types/estatistica/empresaMetrica"
+import { dashboardService } from "@/service/dashboard-service"
 
 export function ActivitiesList() {
     const [leadsFeed, setLeadsFeed] = useState<ActivityFeed[]>([])
