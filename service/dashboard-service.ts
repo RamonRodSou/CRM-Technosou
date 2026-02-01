@@ -1,6 +1,6 @@
 import { EmpresaMetrica } from "@/types/estatistica/empresaMetrica";
-import { api } from "./api"
 import { ActivityFeed } from "@/types/estatistica/activityFeed";
+import { api } from "./api";
 
 export const dashboardService = {
     getMetricasEmpresas: async () => {

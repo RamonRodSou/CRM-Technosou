@@ -22,7 +22,8 @@
       "@/*": ["./src/*"],
       "@/service/*": ["./service/*"],
       "@/store/*": ["./store/*"],
-      "@/schema/*": ["./schema/*"]
+      "@/schema/*": ["./schema/*"],
+      "@/lib/*": ["./src/lib/*"]
     }
   },
   "include": [
