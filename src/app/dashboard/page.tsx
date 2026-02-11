@@ -1,6 +1,7 @@
 import { ActivitiesList } from "@/components/modules/crm/ActivitiesList"
 import { DashboardKPIs } from "@/components/modules/crm/DashboardKPIs"
 import { LeadsChart } from "@/components/modules/crm/leads-chart"
+import { ResponsibleChart } from "@/components/modules/crm/ResponsibleChart"
 
 export default function DashboardPage() {
     return (
